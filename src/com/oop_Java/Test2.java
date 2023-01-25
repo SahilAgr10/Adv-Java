@@ -6,8 +6,8 @@ public class Test2 extends Test1{
 
     public static void main(String[] args) {
         Test1 t1 = new Test1();
+        t1.start();
         t1.run();
-        t1.pause();
         t1.accl();
     }
 }
