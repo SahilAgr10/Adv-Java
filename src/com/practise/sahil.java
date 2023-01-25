@@ -1,6 +1,4 @@
-package com.sahil;
-
-import java.util.*;
+package com.practise;
 
 
 public class sahil {

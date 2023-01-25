@@ -1,5 +1,5 @@
-package com.sahil;
-import java.util.Scanner;
+package com.practise;
+
 // for a static data  can be accessed using clas name directly with dot operator .
 // eg. : recursion.main(); otherwise we hVE TO Declare object first
 public class Main {
