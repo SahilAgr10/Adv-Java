@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OOP Java/OOP Java.iml" filepath="$PROJECT_DIR$/OOP Java/OOP Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/PractiseExercise.iml" filepath="$PROJECT_DIR$/PractiseExercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/recursion/recursion.iml" filepath="$PROJECT_DIR$/src/com/recursion/recursion.iml" />
     </modules>
