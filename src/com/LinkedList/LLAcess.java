@@ -8,6 +8,7 @@ public class LLAcess {
         list.insertFirst(0);
         list.display();
 
+
     }
 
 }

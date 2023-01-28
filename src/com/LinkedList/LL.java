@@ -28,7 +28,7 @@ public class LL {
             System.out.print(temp.value + " -> ");
             temp= temp.next;
         }
-        System.out.println("end");
+        System.out.println("size is " + size);
     }
 
    public class Node{
