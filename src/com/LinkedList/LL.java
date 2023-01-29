@@ -46,6 +46,8 @@ public class LL {
         }
         Node node = new Node(value,temp.next);
         temp.next=node;
+//        node.next= temp.next;
+//        temp.next= node;      alternate TODO
         size++;
     }
 
