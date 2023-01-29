@@ -9,6 +9,8 @@ public class LLAcess {
         list.insert(134,2);
         list.insertLast(35);
         list.display();
+        list.insert(99,5);
+        list.display();
 
 
     }

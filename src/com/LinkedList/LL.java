@@ -35,10 +35,10 @@ public class LL {
             insertFirst(value);
             return;
         }
-        if(index==size){
-            insertLast(value);
-            return;
-        }
+//        if(index==size){
+//            insertLast(value);
+//            return;
+//        }
         Node temp = Head;
         for (int i = 0 ;i<index-1;i++){
             temp=temp.next;
