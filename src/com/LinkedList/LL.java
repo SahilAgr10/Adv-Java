@@ -28,6 +28,7 @@ public class LL {
         }
         Node node = new Node(value);
         Tail.next=node;
+        Tail = node;
         size+=1;
     }
     public void insert(int value,int index){
