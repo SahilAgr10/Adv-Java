@@ -30,6 +30,23 @@ public class LL {
         Tail.next=node;
         size+=1;
     }
+    public void insert(int value,int index){
+        if(index==0){
+            insertFirst(value);
+            return;
+        }
+        if(index==size){
+            insertLast(value);
+            return;
+        }
+        Node temp = Head;
+        for (int i = 0 ;i<index-1;i++){
+            temp=temp.next;
+        }
+        Node node = new Node(value,temp.next);
+        temp.next=node;
+        size++;
+    }
 
     public void display(){
         Node temp = Head;

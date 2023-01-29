@@ -6,6 +6,8 @@ public class LLAcess {
         list.insertFirst(3);
         list.insertFirst(2);
         list.insertFirst(0);
+        list.insert(134,2);
+        list.insertLast(35);
         list.display();
 
 
