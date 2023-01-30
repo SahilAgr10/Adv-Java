@@ -1,5 +1,7 @@
 package com.practise;
 
+import com.Abstraction.Interface.Child;
+
 // for a static data  can be accessed using clas name directly with dot operator .
 // eg. : recursion.main(); otherwise we hVE TO Declare object first
 public class Main {
