@@ -50,6 +50,15 @@ public class LL {
 //        temp.next= node;      alternate TODO
         size++;
     }
+    public int deleteFirst(){
+        int value = Head.value;
+        Head=Head.next;
+        if(Head==null){
+            Tail=null;
+        }
+        size--;
+        return value;
+    }
 
     public void display(){
         Node temp = Head;
