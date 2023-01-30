@@ -11,6 +11,8 @@ public class LLAcess {
         list.display();
         list.insert(99,5);
         list.display();
+        list.deleteLast();
+        list.display();
 
 
     }
