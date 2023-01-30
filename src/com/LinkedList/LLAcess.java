@@ -11,7 +11,9 @@ public class LLAcess {
         list.display();
         list.insert(99,5);
         list.display();
-        list.deleteLast();
+        System.out.println(list.deleteLast());
+        list.display();
+        System.out.println(list.delete(4));
         list.display();
 
 

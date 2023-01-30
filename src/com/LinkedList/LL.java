@@ -71,9 +71,23 @@ public class LL {
             return deleteFirst();
         }
         Node secondLast = getPrevious(size-2);
-        int value = Tail.value;
+        int value = secondLast.next.value;
         Tail=secondLast;
         Tail.next=null;
+        size--;
+        return value;
+    }
+    public int delete(int index){
+        if(index==0){
+            return deleteFirst();
+        }
+        if(index==size-1){
+            return deleteLast();
+        }
+        Node prevNode = getPrevious(index-2);
+        int value = prevNode.next.value;
+        prevNode=prevNode.next.next;
+        size--;
         return value;
     }
 
