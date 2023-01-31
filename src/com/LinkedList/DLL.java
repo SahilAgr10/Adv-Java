@@ -8,9 +8,15 @@ public class DLL {
         node.next=Head;
         node.prev=null;
         if(Head!=null){
-            Head.prev = node;
-        }
+            Head.prev = node; }
         Head=node;
+    }
+    public void display(){
+        Node temp = Head;
+        while(temp!=null){
+            System.out.println(temp.value + "->");
+            temp = temp.next;
+        }
     }
 
     private class Node {
