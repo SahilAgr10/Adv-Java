@@ -8,5 +8,6 @@ public class DLLAcess {
         list.insertFirst(50);
         list.insertFirst(100);
         list.display();
+        System.out.println("   size"+"("+ list.size+")");
     }
 }
