@@ -51,7 +51,7 @@ public class DLL {
         Node node = new Node(value,temp.next);
         temp.next=node;
         node.prev=temp;
-        temp.next.next.prev=node;
+        node.next.prev=node;
         size++;
     }
     public void display(){
