@@ -1,14 +1,12 @@
 package com.LinkedList;
 
-import org.w3c.dom.Node;
-
-public class LL {
+public class SLL {
 
     private Node Head;
     private Node Tail;
     private int size;
 
-    public LL() {
+    public SLL() {
         this.size = 0;
     }
     public void insertFirst(int value){
