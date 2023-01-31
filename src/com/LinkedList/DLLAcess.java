@@ -9,5 +9,7 @@ public class DLLAcess {
         list.insertFirst(100);
         list.display();
         System.out.println("   size"+"("+ list.size+")");
+        list.insertLast(999);
+        list.display();
     }
 }

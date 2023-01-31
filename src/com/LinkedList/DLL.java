@@ -22,21 +22,36 @@ public class DLL {
         }
         size+=1;
     }
+
+    public void insertLast(int value){
+        if(Tail==null){
+            insertFirst(value);
+            return;
+        }
+        Node node = new Node(value);
+        Tail.next=node;
+        node.prev=Tail;
+        Tail = node;
+        node.next=null;
+        size+=1;
+    }
     public void display(){
         Node temp = Head;
-        Node last = null;
         while(temp!=null){
             System.out.print(temp.value + "->");
-            last=temp;
             temp = temp.next;
         }
         System.out.println("null");
-        System.out.println("Reverse Order Nodes :");
-        while(last!=null){
-            System.out.print(last.value + "->");
-            last = last.prev;
-        }
     }
+    public void revDisplay(){
+        Node temp = Tail;
+        while(temp!=null){
+            System.out.print(temp.value + "->");
+            temp = temp.prev;
+        }
+        System.out.println("null");
+    }
+
 
     private class Node {
         private int value;
