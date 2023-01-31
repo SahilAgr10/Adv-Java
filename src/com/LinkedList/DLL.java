@@ -3,6 +3,16 @@ package com.LinkedList;
 public class DLL {
     Node Head;
 
+    public void insertFirst(int value){
+        Node node = new Node(value);
+        node.next=Head;
+        node.prev=null;
+        if(Head!=null){
+            Head.prev = node;
+        }
+        Head=node;
+    }
+
     private class Node {
         private int value;
         private Node next;
