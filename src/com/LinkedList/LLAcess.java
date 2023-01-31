@@ -15,6 +15,8 @@ public class LLAcess {
         list.display();
         System.out.println(list.delete(4));
         list.display();
+        System.out.println(list.findNode(134));
+
 
 
     }
