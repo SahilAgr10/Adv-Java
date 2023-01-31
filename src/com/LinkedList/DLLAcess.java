@@ -13,5 +13,8 @@ public class DLLAcess {
         list.display();
         System.out.println("   size"+"("+ list.size+")");
         list.revDisplay();
+        list.insert(10,3);
+        list.display();
+        System.out.println("   size"+"("+ list.size+")");
     }
 }
