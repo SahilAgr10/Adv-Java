@@ -1,6 +1,6 @@
 package com.LinkedList;
 
-public class LLAcess {
+public class SLLAcess {
     public static void main(String[] args) {
         SLL list = new SLL();
         list.insertFirst(3);

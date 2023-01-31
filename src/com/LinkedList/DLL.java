@@ -35,6 +35,13 @@ public class DLL {
         node.next=null;
         size+=1;
     }
+    public Node getPrevious(int index){
+        Node node = Head;
+        for (int i =0;i<index;i++){
+            node=node.next;
+        }
+        return node;
+    }
     public void insert(int value,int index){
         if(index==0){
             insertFirst(value);
@@ -44,14 +51,17 @@ public class DLL {
             insertLast(value);
             return;
         }
-        Node temp = Head;
-        for (int i = 1 ;i<index;i++){
-            temp=temp.next;
+        Node p = getPrevious(index);
+        if(p==null){
+            System.out.println("Node doesnt exist");
         }
-        Node node = new Node(value,temp.next);
-        temp.next=node;
-        node.prev=temp;
-        node.next.prev=node;
+        Node node = new Node(value);
+        node.next=p.next;
+        p.next=node;
+        node.prev=p;
+        if(node.next!=null){
+            node.next.prev=node;
+        }
         size++;
     }
     public void display(){
