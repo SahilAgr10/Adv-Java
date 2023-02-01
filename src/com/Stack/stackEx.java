@@ -10,9 +10,9 @@ public class stackEx {
         System.out.println(stack.push(32));
         System.out.println(stack.push(34));
         System.out.println(stack.push(35));
-
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
+        System.out.println();
+        System.out.println(stack.pop() + " is removed");
+        System.out.println(stack.pop()  + " is removed");
 
     }
 }
