@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class SQLconnect {
+public class SQLConnect {
     //jdbc Demo
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
