@@ -12,7 +12,8 @@ public class stackEx {
         System.out.println(stack.push(35));
         System.out.println();
         System.out.println(stack.pop() + " is removed");
-        System.out.println(stack.pop()  + " is removed");
+        System.out.println(stack.pop()  + " is removed\n");
+        System.out.println(stack.peek() + " is available at Top");
 
     }
 }
