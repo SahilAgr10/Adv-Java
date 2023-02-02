@@ -38,10 +38,10 @@ public class CustomStack {
 
 
 
-    private boolean isFull() {
+    public boolean isFull() {
         return ptr == data.length-1; // ptr is at last index
     }
-    private boolean isEmpty() {
+    public boolean isEmpty() {
         return ptr == -1; // stack is empty
     }
 }
