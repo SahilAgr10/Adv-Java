@@ -13,7 +13,7 @@ public class SQLconnect {
         String user="root";
         String pass= "Sahil@4994";
         String url = "jdbc:mysql://127.0.0.1:3306/super30";
-        String string = " insert into tblemployee values(102,'amar','pune',45000)";
+        String string = " insert into tblemployee values(103,'rohit','pune',94000)";
 
         Class.forName(driver);
 
