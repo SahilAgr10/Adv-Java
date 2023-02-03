@@ -9,12 +9,12 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", salary=" + salary +
-                ", position='" + position + '\'' +
-                ", exp=" + exp +
-                '}';
+        return "Employee[" +
+                "name= " + name  +
+                "| salary=" + salary +
+                "| position='" + position  +
+                "| exp=" + exp +
+                ']';
     }
 
     public Employee(){

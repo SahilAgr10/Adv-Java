@@ -24,6 +24,9 @@ public class Arraylst {
         arrayLst.add(56);
         System.out.println(arrayLst);
 
+        ArrayList<Employee> arrayList1 = new ArrayList<>();
+
+
 
     }
 }
