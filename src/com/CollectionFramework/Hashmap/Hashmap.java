@@ -1,7 +1,7 @@
 package com.CollectionFramework.Hashmap;
 import java.util.*;
 
-public class Hashmap {
+public class Hashmap { // internally implemented as a array of linkedlst
     public static void main(String[] args) {
         //Creation
         HashMap<String, Integer> map = new HashMap<>();
