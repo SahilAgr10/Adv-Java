@@ -30,6 +30,16 @@ public class Binary_tree {
         int[] nodes = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         BinaryTree tree = new BinaryTree();
         Node rootNode = tree.BuildTree(nodes);
-        System.out.println(rootNode.data);
+        //System.out.println(rootNode.data);
+        preOrder(rootNode);
+    }
+
+    public static void preOrder(Node root){
+        if(root == null){
+            return;
+        }
+        System.out.print(root.data + " ->");
+        preOrder(root.left);
+        preOrder(root.right);
     }
 }
