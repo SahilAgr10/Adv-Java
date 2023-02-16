@@ -12,11 +12,14 @@ public class CyclicSort {
 
     private static void sort(int[] arr) {
         for(int i =0;i<arr.length;i++){
+            // correct position indicates wheater no. is placed corectly or not
             int correctPosition = arr[i] - 1;
             if(arr[i] != arr[correctPosition]){
                 int temp = arr[i];
                 arr[i] = arr[correctPosition];
                 arr[correctPosition] = temp;
+            } else {
+                i++;
             }
 
         }
