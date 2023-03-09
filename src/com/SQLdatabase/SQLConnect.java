@@ -21,6 +21,5 @@ public class SQLConnect {
         Statement statement = connection.createStatement();
         statement.execute(string);
         System.out.println("Connecting with mysql..");
-
     }
 }
