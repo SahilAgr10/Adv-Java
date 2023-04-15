@@ -7,13 +7,10 @@ import java.util.LinkedList;
 
 public class Nth_node {
     public static void main(String[] args) {
-        SLL list = new SLL();
-        list.insertFirst(3);
-        list.insertFirst(2);
-        list.insertFirst(0);
-        list.insert(134,2);
-        list.insertLast(35);
-        list.display();
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(5);
+        list.addFirst(3);
+        list.addLast(6);
     }
 
 }
